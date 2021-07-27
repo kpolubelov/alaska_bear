@@ -1,0 +1,458 @@
+foxes@home:~$ su -
+Пароль: 
+root@home:~# apt-get update
+Сущ:1 https://deb.opera.com/opera-stable stable InRelease
+Сущ:2 https://dl.winehq.org/wine-builds/debian sid InRelease
+Пол:3 http://ftp.fi.debian.org/debian sid InRelease [161 kB]
+Пол:4 http://ftp.fi.debian.org/debian sid/main Sources.diff/Index [63,6 kB]
+Пол:5 http://ftp.fi.debian.org/debian sid/main amd64 Packages.diff/Index [63,6 kB]
+Пол:6 http://ftp.fi.debian.org/debian sid/main i386 Packages.diff/Index [63,6 kB]
+Пол:7 http://ftp.fi.debian.org/debian sid/main Translation-ru.diff/Index [63,3 kB]
+Пол:8 http://ftp.fi.debian.org/debian sid/main Sources T-2021-07-23-1401.39-F-2021-07-23-1401.39.pdiff [1 946 B]
+Пол:9 http://ftp.fi.debian.org/debian sid/main amd64 Packages T-2021-07-23-1401.39-F-2021-07-23-1401.39.pdiff [3 417 B]
+Пол:10 http://ftp.fi.debian.org/debian sid/main i386 Packages T-2021-07-23-1401.39-F-2021-07-23-1401.39.pdiff [3 272 B]
+Пол:8 http://ftp.fi.debian.org/debian sid/main Sources T-2021-07-23-1401.39-F-2021-07-23-1401.39.pdiff [1 946 B]
+Пол:10 http://ftp.fi.debian.org/debian sid/main i386 Packages T-2021-07-23-1401.39-F-2021-07-23-1401.39.pdiff [3 272 B]
+Пол:9 http://ftp.fi.debian.org/debian sid/main amd64 Packages T-2021-07-23-1401.39-F-2021-07-23-1401.39.pdiff [3 417 B]
+Пол:11 http://ftp.fi.debian.org/debian sid/main Translation-ru T-2021-07-23-1401.39-F-2021-07-23-1401.39.pdiff [1 445 B]
+Пол:11 http://ftp.fi.debian.org/debian sid/main Translation-ru T-2021-07-23-1401.39-F-2021-07-23-1401.39.pdiff [1 445 B]   
+Получено 425 kB за 7с (62,5 kB/s)                                                                                                                                    
+Чтение списков пакетов… Готово
+root@home:~# apt-get install docker.io
+Чтение списков пакетов… Готово
+Построение дерева зависимостей… Готово
+Чтение информации о состоянии… Готово         
+Следующие пакеты устанавливались автоматически и больше не требуются:
+  bristol-data gnuchess-book libarray-intspan-perl libboost-atomic1.67.0 libboost-chrono1.67.0 libboost-date-time-dev libboost-date-time1.67.0
+  libboost-filesystem-dev libboost-filesystem1.67.0 libboost-program-options-dev libboost-program-options1.67.0 libboost-regex-dev libboost-regex1.67.0
+  libboost-serialization1.67.0 libboost-system-dev libboost-system1.67.0 libboost-test-dev libboost-test1.67.0 libboost-thread-dev libboost-thread1.67.0
+  libgetopt-long-descriptive-perl libgnuradio-analog3.8.1 libgnuradio-blocks3.8.1 libgnuradio-channels3.8.1 libgnuradio-dtv3.8.1 libgnuradio-fec3.8.1
+  libgnuradio-fft3.8.1 libgnuradio-filter3.8.1 libgnuradio-pmt3.8.1 libgnuradio-qtgui3.8.1 libgnuradio-runtime3.8.1 libgnuradio-trellis3.8.1
+  libgnuradio-video-sdl3.8.1 libgnuradio-vocoder3.8.1 libgnuradio-wavelet3.8.1 libgnuradio-zeromq3.8.1 libhash-fieldhash-perl libicu63 libircclient1
+  libkyotocabinet16v5 liblist-someutils-perl liblist-someutils-xs-perl liblo7 libmoox-struct-perl libnamespace-autoclean-perl libnumber-range-perl libobject-id-perl
+  libparams-validate-perl libpath-iterator-rule-perl libpython2-dev libpython2.7 libpython2.7-dev libre-engine-re2-perl libre2-8 libre2-9
+  libregexp-pattern-license-perl libregexp-pattern-perl libsort-key-perl libstring-copyright-perl libstring-escape-perl libusrsctp1 libvolk2.2 libvolk2.3
+  mailutils-common
+Для их удаления используйте «apt autoremove».
+Предлагаемые пакеты:
+  docker-doc aufs-tools btrfs-progs debootstrap rinse rootlesskit xfsprogs zfs-fuse | zfsutils-linux
+Следующие НОВЫЕ пакеты будут установлены:
+  docker.io
+Обновлено 0 пакетов, установлено 1 новых пакетов, для удаления отмечено 0 пакетов, и 309 пакетов не обновлено.
+Необходимо скачать 0 B/36,8 MB архивов.
+После данной операции объём занятого дискового пространства возрастёт на 168 MB.
+Выбор ранее не выбранного пакета docker.io.
+(Чтение базы данных … на данный момент установлено 305923 файла и каталога.)
+Подготовка к распаковке …/docker.io_20.10.5+dfsg1-1+b4_amd64.deb …
+Распаковывается docker.io (20.10.5+dfsg1-1+b4) …
+Настраивается пакет docker.io (20.10.5+dfsg1-1+b4) …
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+Обрабатываются триггеры для man-db (2.9.4-2) …
+Сканирование процессов...                                                                                                                        
+Scanning processor microcode...                                                                                                                                       
+Сканирование образов linux...                                                                                                                      
+
+Запущено ядро последней версии.
+
+The processor microcode seems to be up-to-date.
+
+Службы не требуют перезапуска.
+
+Контейнеры не требуют перезапуска.
+
+В сеансах пользователей нет устаревших процессов.
+root@home:~# exit
+выход
+foxes@home:~$ sudo docker ps -a
+[sudo] пароль для foxes: 
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+foxes@home:~$ sudo docker pull azshoo/alaska:1.0
+1.0: Pulling from azshoo/alaska
+ad18637d63f5: Pull complete 
+ef2c93782772: Pull complete 
+2ecc295d59fc: Pull complete 
+8e7b6610f2ee: Pull complete 
+Digest: sha256:91fdc1eda6cf5657556f96b8122ac8a27447caf204a5cbd5b0b7ca7221ab6d5e
+Status: Downloaded newer image for azshoo/alaska:1.0
+docker.io/azshoo/alaska:1.0
+foxes@home:~$ ip a s |grep -i docker
+5: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+foxes@home:~$ sudo iptables -L | grep -i docker
+DOCKER-USER  all  --  anywhere             anywhere            
+DOCKER-ISOLATION-STAGE-1  all  --  anywhere             anywhere            
+DOCKER     all  --  anywhere             anywhere            
+Chain DOCKER (1 references)
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+DOCKER-ISOLATION-STAGE-2  all  --  anywhere             anywhere            
+Chain DOCKER-ISOLATION-STAGE-2 (1 references)
+Chain DOCKER-USER (1 references)
+foxes@home:~$ sudo docker run -p 172.17.0.1:8091:8091 azshoo/alaska:1.0
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+[INFO ] 2021-07-23 21:56:47.113 SecretRoute - Secret for this session is 'a8ca98bc-2724-480e-8bf1-3fcb99ea2615'
+[INFO ] 2021-07-23 21:56:47.156 log - Logging initialized @1053ms to org.eclipse.jetty.util.log.Slf4jLog
+[WARN ] 2021-07-23 21:56:47.254 AbstractConnector - Ignoring deprecated socket close linger time
+[WARN ] 2021-07-23 21:56:47.254 AbstractConnector - Ignoring deprecated socket close linger time
+[INFO ] 2021-07-23 21:56:47.258 EmbeddedJettyServer - == Spark has ignited ...
+[INFO ] 2021-07-23 21:56:47.259 EmbeddedJettyServer - >> Listening on 0.0.0.0:8091
+[INFO ] 2021-07-23 21:56:47.260 EmbeddedJettyServer - == Spark has ignited ...
+[INFO ] 2021-07-23 21:56:47.260 EmbeddedJettyServer - >> Listening on 0.0.0.0:8092
+[INFO ] 2021-07-23 21:56:47.264 Server - jetty-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 12.0.2+10
+[INFO ] 2021-07-23 21:56:47.276 Server - jetty-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 12.0.2+10
+[INFO ] 2021-07-23 21:56:47.316 session - DefaultSessionIdManager workerName=node0
+[INFO ] 2021-07-23 21:56:47.316 session - No SessionScavenger set, using defaults
+[INFO ] 2021-07-23 21:56:47.316 session - DefaultSessionIdManager workerName=node0
+[INFO ] 2021-07-23 21:56:47.319 session - No SessionScavenger set, using defaults
+[INFO ] 2021-07-23 21:56:47.321 session - node0 Scavenging every 660000ms
+[INFO ] 2021-07-23 21:56:47.321 session - node0 Scavenging every 600000ms
+[INFO ] 2021-07-23 21:56:47.350 AbstractConnector - Started ServerConnector@44066850{HTTP/1.1,[http/1.1]}{0.0.0.0:8091}
+[INFO ] 2021-07-23 21:56:47.351 AbstractConnector - Started ServerConnector@35de2a66{HTTP/1.1,[http/1.1]}{0.0.0.0:8092}
+[INFO ] 2021-07-23 21:56:47.351 Server - Started @1251ms
+[INFO ] 2021-07-23 21:56:47.352 Server - Started @1251ms
+[INFO ] 2021-07-23 21:56:52.131 Alaska - ========== ALASKA ==========
+[INFO ] 2021-07-23 21:59:26.924 InfoRoute - Info route call
+[INFO ] 2021-07-23 21:59:35.668 BearReadAll - Bears read route call:
+body - '""'
+head - '{}'
+[INFO ] 2021-07-23 21:59:40.754 MatcherFilter - The requested route [/bar] has not been mapped in Spark for Accept: [*/*]
+
+
+==============================
+
+foxes@home:~/work/arrival$ sudo docker ps -a
+[sudo] пароль для foxes: 
+CONTAINER ID   IMAGE               COMMAND                  CREATED          STATUS          PORTS                       NAMES
+44e0e71e6d88   azshoo/alaska:1.0   "/bin/sh -c 'java -j…"   53 seconds ago   Up 46 seconds   172.17.0.1:8091->8091/tcp   cranky_spence
+foxes@home:~/work/arrival$ sudo iptables -L |grep -i 8091
+ACCEPT     tcp  --  anywhere             172.17.0.2           tcp dpt:8091
+foxes@home:~/work/arrival$ sudo iptables -L |grep -i docker
+DOCKER-USER  all  --  anywhere             anywhere            
+DOCKER-ISOLATION-STAGE-1  all  --  anywhere             anywhere            
+DOCKER     all  --  anywhere             anywhere            
+Chain DOCKER (1 references)
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+DOCKER-ISOLATION-STAGE-2  all  --  anywhere             anywhere            
+Chain DOCKER-ISOLATION-STAGE-2 (1 references)
+Chain DOCKER-USER (1 references)
+foxes@home:~/work/arrival$ ip a s | grep 8091
+foxes@home:~/work/arrival$ netstat -a |grep 8091
+tcp        0      0 172.17.0.1:8091         0.0.0.0:*               LISTEN     
+foxes@home:~/work/arrival$ curl -iv http://172.17.0.1:8091/info
+*   Trying 172.17.0.1:8091...
+* Connected to 172.17.0.1 (172.17.0.1) port 8091 (#0)
+> GET /info HTTP/1.1
+> Host: 172.17.0.1:8091
+> User-Agent: curl/7.74.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Date: Fri, 23 Jul 2021 21:59:26 GMT
+Date: Fri, 23 Jul 2021 21:59:26 GMT
+< Content-Type: text/html;charset=utf-8
+Content-Type: text/html;charset=utf-8
+< Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+< Server: Jetty(9.4.z-SNAPSHOT)
+Server: Jetty(9.4.z-SNAPSHOT)
+
+< 
+Welcome to Alaska!
+This is CRUD service for bears in alaska.
+CRUD routes presented with REST naming notation:
+
+POST			/bear - create
+GET			/bear - read all bears
+GET			/bear/:id - read specific bear
+PUT			/bear/:id - update specific bear
+DELETE			/bear - delete all bears
+DELETE			/bear/:id - delete specific bear
+
+Example of ber json: {"bear_type":"BLACK","bear_name":"mikhail","bear_age":17.5}.
+* Connection #0 to host 172.17.0.1 left intact
+Available types for bears are: POLAR, BROWN, BLACK and GUMMY.foxes@home:~/work/arrival$ curl -iv http://172.17.0.1:8091/bear
+*   Trying 172.17.0.1:8091...
+* Connected to 172.17.0.1 (172.17.0.1) port 8091 (#0)
+> GET /bear HTTP/1.1
+> Host: 172.17.0.1:8091
+> User-Agent: curl/7.74.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Date: Fri, 23 Jul 2021 21:59:35 GMT
+Date: Fri, 23 Jul 2021 21:59:35 GMT
+< Content-Type: text/html;charset=utf-8
+Content-Type: text/html;charset=utf-8
+< Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+< Server: Jetty(9.4.z-SNAPSHOT)
+Server: Jetty(9.4.z-SNAPSHOT)
+
+< 
+* Connection #0 to host 172.17.0.1 left intact
+[]foxes@home:~/work/arrival$ curl -iv http://172.17.0.1:8091/bar
+*   Trying 172.17.0.1:8091...
+* Connected to 172.17.0.1 (172.17.0.1) port 8091 (#0)
+> GET /bar HTTP/1.1
+> Host: 172.17.0.1:8091
+> User-Agent: curl/7.74.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 404 Not Found
+HTTP/1.1 404 Not Found
+< Date: Fri, 23 Jul 2021 21:59:40 GMT
+Date: Fri, 23 Jul 2021 21:59:40 GMT
+< Content-Type: text/html;charset=utf-8
+Content-Type: text/html;charset=utf-8
+< Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+< Server: Jetty(9.4.z-SNAPSHOT)
+Server: Jetty(9.4.z-SNAPSHOT)
+
+< 
+* Connection #0 to host 172.17.0.1 left intact
+<html><body><h2>404 Not found</h2></body></html>foxes@home:~/work/arrival$
+foxes@home:~/work/arrival$ vim trace-deploy-and-run.txt
+
+============================
+
+foxes@home:~/work/arrival$ sudo docker exec -it 44e0e71e6d88 /bin/sh
+sh-4.2# ls
+alaska1.0.jar  bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run	sbin  srv  sys	tmp  usr  var
+sh-4.2# ls -al etc
+total 976
+drwxr-xr-x  1 root root   4096 Jul 23 21:56 .
+drwxr-xr-x  1 root root   4096 Jul 23 21:56 ..
+-rw-r--r--  1 root root   1518 Jun  7  2013 aliases
+drwxr-xr-x  1 root root   4096 Jul 17  2019 alternatives
+drwxr-xr-x  2 root root   4096 Jun 21  2019 bash_completion.d
+-rw-r--r--  1 root root   2853 Aug 25  2018 bashrc
+drwxr-xr-x  2 root root   4096 Aug  2  2017 chkconfig.d
+-rw-r--r--  1 root root   1620 Aug 25  2018 csh.cshrc
+-rw-r--r--  1 root root    866 Aug 25  2018 csh.login
+drwxr-xr-x  2 root root   4096 Jun 21  2019 default
+-rw-r--r--  1 root root   5090 Aug 31  2018 DIR_COLORS
+-rw-r--r--  1 root root   5725 Aug 31  2018 DIR_COLORS.256color
+-rw-r--r--  1 root root   4669 Aug 31  2018 DIR_COLORS.lightbgcolor
+-rw-r--r--  1 root root      0 Aug 25  2018 environment
+-rw-r--r--  1 root root      0 Jun  7  2013 exports
+-rw-r--r--  1 root root     70 Aug 25  2018 filesystems
+drwxr-xr-x  3 root root   4096 Jun 24  2019 fonts
+drwxr-xr-x  2 root root   4096 May 26  2017 gcrypt
+drwxr-xr-x  2 root root   4096 Jul 11  2018 gnupg
+-rw-r--r--  1 root root     94 May 27  2017 GREP_COLORS
+-rw-r--r--  1 root root    261 Aug 25  2018 group
+----------  1 root root    198 Aug 25  2018 gshadow
+drwxr-xr-x  3 root root   4096 Jun 21  2019 gss
+-rw-r--r--  1 root root      9 Jun  7  2013 host.conf
+-rw-r--r--  1 root root     13 Jul 23 21:56 hostname
+-rw-r--r--  1 root root    174 Jul 23 21:56 hosts
+-rw-r--r--  1 root root    370 Jun  7  2013 hosts.allow
+-rw-r--r--  1 root root    460 Jun  7  2013 hosts.deny
+lrwxrwxrwx  1 root root     11 Jun 21  2019 init.d -> rc.d/init.d
+-rw-r--r--  1 root root    942 Jun  7  2013 inputrc
+-rw-r--r--  1 root root     23 Nov  2  2018 issue
+-rw-r--r--  1 root root     22 Nov  2  2018 issue.net
+-rw-r--r--  1 root root    641 Jan 29  2019 krb5.conf
+drwxr-xr-x  2 root root   4096 Jan 29  2019 krb5.conf.d
+-rw-r--r--  1 root root   9511 Jun 24  2019 ld.so.cache
+-rw-r--r--  1 root root     28 Feb 27  2013 ld.so.conf
+drwxr-xr-x  2 root root   4096 Jun  7  2019 ld.so.conf.d
+-rw-r-----  1 root root    191 Jun 19  2018 libaudit.conf
+-rw-r--r--  1 root root   2028 Mar 14  2019 login.defs
+drwxr-xr-x  2 root root   4096 Jun 21  2019 logrotate.d
+-rw-r--r--  1 root root      0 Jun  7  2013 motd
+lrwxrwxrwx  1 root root     12 Jul 23 21:56 mtab -> /proc/mounts
+-rw-r--r--  1 root root   1735 Jun  7  2019 nsswitch.conf
+drwxr-xr-x  3 root root   4096 Jun 21  2019 openldap
+drwxr-xr-x  2 root root   4096 Apr 11  2018 opt
+-rw-r--r--  1 root root     32 Nov  2  2018 oracle-release
+-rw-r--r--  1 root root    435 Nov  2  2018 os-release
+-rw-r--r--  1 root root    513 Aug 25  2018 passwd
+drwxr-xr-x  3 root root   4096 Jun 21  2019 pkcs11
+drwxr-xr-x  1 root root   4096 Jun 21  2019 pki
+drwxr-xr-x  5 root root   4096 Jun 21  2019 pm
+drwxr-xr-x  2 root root   4096 May  3  2014 popt.d
+drwxr-xr-x  2 root root   4096 Jun 21  2019 prelink.conf.d
+-rw-r--r--  1 root root    233 Jun  7  2013 printcap
+-rw-r--r--  1 root root   1819 Aug 25  2018 profile
+drwxr-xr-x  2 root root   4096 Jun 21  2019 profile.d
+-rw-r--r--  1 root root   6545 Aug 25  2018 protocols
+drwxr-xr-x  2 root root   4096 Jun 21  2019 python
+lrwxrwxrwx  1 root root     10 Jun 21  2019 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx  1 root root     10 Jun 21  2019 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx  1 root root     10 Jun 21  2019 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx  1 root root     10 Jun 21  2019 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx  1 root root     10 Jun 21  2019 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx  1 root root     10 Jun 21  2019 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx  1 root root     10 Jun 21  2019 rc6.d -> rc.d/rc6.d
+drwxr-xr-x 10 root root   4096 Jun 21  2019 rc.d
+-rw-r--r--  1 root root     52 Nov  2  2018 redhat-release
+-rw-r--r--  1 root root     66 Jul 23 21:56 resolv.conf
+-rw-r--r--  1 root root   1634 Dec 25  2012 rpc
+drwxr-xr-x  2 root root   4096 Aug 25  2018 rpm
+drwxr-xr-x  2 root root   4096 Feb  1  2018 sasl2
+-rw-------  1 root root    221 Aug 25  2018 securetty
+drwxr-xr-x  3 root root   4096 Jun 21  2019 selinux
+-rw-r--r--  1 root root 670293 Jun  7  2013 services
+----------  1 root root    346 Aug 25  2018 shadow
+-rw-r--r--  1 root root     44 Aug 25  2018 shells
+drwxr-xr-x  2 root root   4096 Jun 21  2019 skel
+drwxr-xr-x  2 root root   4096 Jun 21  2019 ssl
+-rw-r--r--  1 root root      0 Aug 25  2018 subgid
+-rw-r--r--  1 root root      0 Aug 25  2018 subuid
+drwxr-xr-x  2 root root   4096 Jun 21  2019 sysconfig
+lrwxrwxrwx  1 root root     14 Jun 21  2019 system-release -> oracle-release
+-rw-r--r--  1 root root     31 Nov  2  2018 system-release-cpe
+drwxr-xr-x  2 root root   4096 Sep  5  2017 terminfo
+drwxr-xr-x  4 root root   4096 Jun 21  2019 X11
+drwxr-xr-x  3 root root   4096 Jun 21  2019 xdg
+drwxr-xr-x  2 root root   4096 Apr 11  2018 xinetd.d
+drwxr-xr-x  6 root root   4096 Jun 21  2019 yum
+-rw-r--r--  1 root root    828 Jun 21  2019 yum.conf
+drwxr-xr-x  2 root root   4096 Jun 21  2019 yum.repos.d
+sh-4.2# cat etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+sh-4.2# exit
+
+============================================================================
+
+foxes@home:~/work/arrival$ curl -iv http://172.17.0.1:8091/bear
+*   Trying 172.17.0.1:8091...
+* Connected to 172.17.0.1 (172.17.0.1) port 8091 (#0)
+> GET /bear HTTP/1.1
+> Host: 172.17.0.1:8091
+> User-Agent: curl/7.74.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Date: Mon, 26 Jul 2021 09:08:50 GMT
+Date: Mon, 26 Jul 2021 09:08:50 GMT
+< Content-Type: text/html;charset=utf-8
+Content-Type: text/html;charset=utf-8
+< Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+< Server: Jetty(9.4.z-SNAPSHOT)
+Server: Jetty(9.4.z-SNAPSHOT)
+
+< 
+* Connection #0 to host 172.17.0.1 left intact
+[]foxes@home:~/work/arrival$ 
+foxes@home:~/work/arrival$ curl -iv http://172.17.0.1:8091/bear -d "{ "bear_type":"BLACK","bear_name":"mikhail","bear_age":17.5 }"
+*   Trying 172.17.0.1:8091...
+* Connected to 172.17.0.1 (172.17.0.1) port 8091 (#0)
+> POST /bear HTTP/1.1
+> Host: 172.17.0.1:8091
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Length: 51
+> Content-Type: application/x-www-form-urlencoded
+> 
+* upload completely sent off: 51 out of 51 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Date: Mon, 26 Jul 2021 09:09:43 GMT
+Date: Mon, 26 Jul 2021 09:09:43 GMT
+< Content-Type: text/html;charset=utf-8
+Content-Type: text/html;charset=utf-8
+< Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+< Server: Jetty(9.4.z-SNAPSHOT)
+Server: Jetty(9.4.z-SNAPSHOT)
+
+< 
+* Connection #0 to host 172.17.0.1 left intact
+1foxes@home:~/work/arrival$ 
+foxes@home:~/work/arrival$ curl -iv -X PUT http://172.17.0.1:8091/bear/1 -d "{ "bear_id":1,"bear_name":"vova" }"
+*   Trying 172.17.0.1:8091...
+* Connected to 172.17.0.1 (172.17.0.1) port 8091 (#0)
+> PUT /bear/1 HTTP/1.1
+> Host: 172.17.0.1:8091
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Length: 28
+> Content-Type: application/x-www-form-urlencoded
+> 
+* upload completely sent off: 28 out of 28 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Date: Mon, 26 Jul 2021 09:10:37 GMT
+Date: Mon, 26 Jul 2021 09:10:37 GMT
+< Content-Type: text/html;charset=utf-8
+Content-Type: text/html;charset=utf-8
+< Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+< Server: Jetty(9.4.z-SNAPSHOT)
+Server: Jetty(9.4.z-SNAPSHOT)
+
+< 
+* Connection #0 to host 172.17.0.1 left intact
+OKfoxes@home:~/work/arrival$ curl -iv -X DELETE http://172.17.0.1:8091/bear/1
+*   Trying 172.17.0.1:8091...
+* Connected to 172.17.0.1 (172.17.0.1) port 8091 (#0)
+> DELETE /bear/1 HTTP/1.1
+> Host: 172.17.0.1:8091
+> User-Agent: curl/7.74.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Date: Mon, 26 Jul 2021 09:11:18 GMT
+Date: Mon, 26 Jul 2021 09:11:18 GMT
+< Content-Type: text/html;charset=utf-8
+Content-Type: text/html;charset=utf-8
+< Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+< Server: Jetty(9.4.z-SNAPSHOT)
+Server: Jetty(9.4.z-SNAPSHOT)
+
+< 
+* Connection #0 to host 172.17.0.1 left intact
+OKfoxes@home:~/work/arrival$
+foxes@home:~/work/arrival$ curl -iv -X DELETE http://172.17.0.1:8091/bear/1
+*   Trying 172.17.0.1:8091...
+* Connected to 172.17.0.1 (172.17.0.1) port 8091 (#0)
+> DELETE /bear/1 HTTP/1.1
+> Host: 172.17.0.1:8091
+> User-Agent: curl/7.74.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Date: Mon, 26 Jul 2021 09:11:36 GMT
+Date: Mon, 26 Jul 2021 09:11:36 GMT
+< Content-Type: text/html;charset=utf-8
+Content-Type: text/html;charset=utf-8
+< Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+< Server: Jetty(9.4.z-SNAPSHOT)
+Server: Jetty(9.4.z-SNAPSHOT)
+
+< 
+* Connection #0 to host 172.17.0.1 left intact
+OKfoxes@home:~/work/arrival$
+foxes@home:~/work/arrival$
+
